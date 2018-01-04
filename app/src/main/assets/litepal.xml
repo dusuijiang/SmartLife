@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="smartlift" ></dbname>
+    <version value="5" ></version>
+    <list>
+        <mapping class="cn.com.example.smartlife.message.GroupDevices"></mapping>
+        <mapping class="cn.com.example.smartlife.message.AddGroup"></mapping>
+        <mapping class="cn.com.example.smartlife.message.Groups"></mapping>
+    </list>
+</litepal>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@drawable/dialog_bg"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10.0dip">
+        <TextView
+            android:paddingTop="19dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:id="@+id/title"
+            android:text="@string/add_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:maxLength="16"
+            android:hint="输入分组名称"
+            android:id="@+id/et"
+            android:layout_below="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_60"/>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:id="@+id/view"
+            android:background="#ccc"
+            android:layout_below="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:id="@+id/line"
+            android:layout_below="@+id/view"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+          <Button
+              android:id="@+id/cancal"
+              android:background="@null"
+              android:text="取消"
+              android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="match_parent"/>
+            <View
+                android:background="#ccc"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/ok"
+                android:background="@null"
+                android:text="确定"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">智慧生活</string>
+    <string name="drawer_layout_open">Open</string>
+    <string name="drawer_layout_close">Close</string>
+    <string name="blog_site">aa</string>
+    <string name="nick_name">Kevin</string>
+    <string name="tips">Hello</string>
+    <!--  ===================================================================== -->
+    <!-- 抽屉菜单 -->
+    <string name="menu_0">切换网关</string>
+    <string name="menu_1">我的背景音乐</string>
+    <string name="menu_2">使用说明</string>
+    <string name="menu_3">修改手机登录账号密码</string>
+    <string name="menu_4">修改网关名称</string>
+    <string name="menu_5">修改网关密码</string>
+    <string name="menu_6">回复出厂设置</string>
+    <string name="menu_7">重启设备</string>
+    <string name="menu_8">关于版本</string>
+    <string name="menu_9">更新设备程序</string>
+    <string name="menu_10">退出或切换账号</string>
+    <!--  ===================================================================== -->
+    <string name="item_home">常用设备</string>
+    <string name="item_location">区域分组</string>
+    <string name="item_like">场景任务</string>
+    <string name="item_person">我</string>
+
+    <!--  =======================  登录注册============================================== -->
+    <string name="main_tab_session">会话</string>
+    <string name="main_tab_contact">通讯录</string>
+    <string name="user_profile">个人名片</string>
+    <string name="login">登录</string>
+    <string name="logining">登录中\u2026</string>
+    <string name="register">注册</string>
+    <string name="registering">注册中\u2026</string>
+    <string name="agree">同意</string>
+    <string name="reject">拒绝</string>
+    <string name="network_is_not_available">网络连接失败，请检查你的网络设置</string>
+    <string name="login_hint_account">请输入帐号</string>
+    <string name="login_hint_password">请输入密码</string>
+    <string name="input_account">请输入帐号，限20位字母或者数字</string>
+    <string name="register_account_tip">帐号限20位字母或者数字</string>
+    <string name="input_nickname">请输入昵称，限10位汉字、字母或者数字</string>
+    <string name="register_nick_name_tip">昵称限10位汉字、字母或者数字</string>
+    <string name="input_password">请输入密码，6~20位字母或者数字</string>
+    <string name="register_password_tip">密码必须为6~20位字母或者数字</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_failed">注册失败,错误码%1$s:%2$s</string>
+    <string name="login_has_account">已有帐号？直接登录</string>
+    <string name="done">完成</string>
+    <string name="latest_message_draft_prefix">[草稿] </string>
+    <string name="main_msg_unread_msg_count">[%d条]</string>
+    <string name="out_time">超时</string>
+    <string name="prepare_data">正在准备数据...</string>
+
+    <string name="readed">已读</string>
+    <string name="about">关于</string>
+    <string name="logout">注销</string>
+    <string name="version">版本号:</string>
+    <string name="account">帐号:</string>
+    <string name="chat">聊天</string>
+    <string name="add">添加</string>
+    <string name="remove">移除</string>
+    <string name="network_forbidden_login">你被服务器禁止登录，详询客服</string>
+    <string name="menu">菜单</string>
+    <string name="verify_reminder">验证提醒</string>
+    <string name="without_content">暂无</string>
+    <string name="create">新建</string>
+    <string name="delete_tip">删除提示</string>
+    <string name="delete_system_message">删除该条系统消息？</string>
+    <string name="delete_success">删除成功</string>
+    <string name="clear_all_success">清空成功</string>
+    <string name="login_failed">帐号或密码错误</string>
+    <string name="login_exception">无效输入</string>
+    <string name="kick_out">帐号在其它设备登录</string>
+    <string name="edittext_length_tips">你输入的字数已经超过了限制！</string>
+    <string name="file_transfer">文件云存储</string>
+    <string name="file_browser">文件浏览器</string>
+    <string name="upload_text">上传</string>
+    <string name="download_text">下载</string>
+    <string name="now_allow_space">不能含有空格</string>
+    <string name="how_to_get_account">如何获取帐号</string>
+    <string name="multi_client_management">多端登录管理</string>
+    <string name="kick_other_client_prompt">踢掉 %1$s</string>
+    <string name="open">开启</string>
+    <string name="close">关闭</string>
+    <string name="search_advanced_team">搜索高级群</string>
+    <string name="net_broken">当前网络不可用</string>
+    <string name="nim_status_unlogin">未登录</string>
+    <string name="nim_status_connecting">连接中...</string>
+    <string name="nim_status_logining">登录中...</string>
+    <string name="copyright">Copyright ©1997-2017 网易公司版权所有</string>
+    <string name="edit_nick">修改昵称</string>
+    <string name="user_not_exsit">该用户不存在</string>
+    <string name="user_tips">请检查你输入的帐号是否正确</string>
+    <string name="edit">编辑</string>
+
+    <!-- session -->
+    <string name="input_panel_guess">猜 拳</string>
+    <string name="input_panel_audio_call">语音通话</string>
+    <string name="input_panel_video_call">视频通话</string>
+    <string name="input_panel_file">发送文件</string>
+    <string name="input_panel_RTS">白 板</string>
+    <string name="input_panel_snapchat">阅后即焚</string>
+    <string name="input_panel_tip">Tip</string>
+    <string name="message_history_query">云消息记录</string>
+    <string name="message_search_title">搜索本地消息记录</string>
+    <string name="message_clear">清空本地消息记录</string>
+    <string name="message_info">聊天信息</string>
+
+    <!-- 通讯录 -->
+    <string name="add_friend">加为好友</string>
+    <string name="remove_friend">删除好友</string>
+    <string name="begin_chat">聊天</string>
+    <string name="remove_friend_tip">删除好友后，将同时解除双方的好友关系</string>
+    <string name="remove_friend_success">删除好友成功</string>
+    <string name="add_friend_self_tip">不能添加自己为好友</string>
+    <string name="add_friend_verify_tip">好友验证请求</string>
+    <string name="black_list_tip">你不会接收到列表中联系人的任何消息</string>
+    <string name="add_buddy">添加好友</string>
+    <string name="kickout_notify">下线通知</string>
+    <string name="kickout_content">你的帐号被%1$s踢出下线，请确定帐号信息安全</string>
+    <string name="user_info_update_failed">设置失败，请重试</string>
+    <!--  ===================================================================== -->
+    <string name="add_group">新增区域分组</string>
+    <string name="add_groups">新增分组</string>
+    <string name="undefined_group">未定义分组</string>
+    <string name="add_devices_to_group">增加设备到该组</string>
+
+    <string name="add_sceen">新增场景</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
